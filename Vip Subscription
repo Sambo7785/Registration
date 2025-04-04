@@ -35,7 +35,7 @@
             // If the countdown is over, stop the timer and display the message with a link
             if (timeLeft < 0) {
                 clearInterval(countdownTimer);
-                document.getElementById("countdown").innerHTML = '<a href="https://example.com">I have sent</a>';
+                document.getElementById("countdown").innerHTML = '<a href="https://sambo7785.github.io/Subscription-Form/">I have sent</a>';
             }
 
             // If the countdown reaches 5 seconds, hide the image
